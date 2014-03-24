@@ -65,10 +65,12 @@
     </ul>
 </div>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="sb-navbar sb-slide">
 
     <!--Include your brand here-->
-    <a class="navbar-brand" href="#">Loyola Track Fundraiser</a>
+    <li>
+        <a class="navbar-brand" href="#">Loyola Track Fundraiser</a>
+    </li>
     <div class="sb-toggle-right">
         <div class="navicon-line"></div>
         <div class="navicon-line"></div>
