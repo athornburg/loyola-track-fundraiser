@@ -12,19 +12,13 @@
 <meta property="og:url" content="">
 <meta property="og:site_name" content="">
 <meta property="og:description" content="">
-    <script src="https://code.jquery.com/jquery.js"></script>
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value="/css/animate.css" />"/>
-    <link rel="stylesheet" href="<c:url value="/css/royal-slider.css" />"/>
-    <link rel="stylesheet" href="<c:url value="/css/slidebars-theme.css" />"/>
-    <link rel="stylesheet" href="<c:url value="/css/rs-minimal-white.css" />"/>
-    <link rel="stylesheet" href="<c:url value="/css/slidebars.min.css" />"/>
     <link rel="stylesheet" href="<c:url value="/css/owl.carousel.css" />"/>
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" id="switcher-css" type="text/css"href="<c:url value="/css/switcher.css" />" media="all" />
-    <script src="<c:url value="/js/slidebars.min.js" />"></script>
-    <script src="<c:url value="/js/jquery.royalslider.min.js" />"></script>
+
 
     <link rel="stylesheet" href="<c:url value="/css/bootstrap.min.css" />"/>
     <link rel="stylesheet" href="<c:url value="/css/main.css" />"/>
@@ -55,29 +49,27 @@
     </ul>
 </nav>-->
 
-<div class="sb-slidebar sb-right">
-    <ul class="sb-menu">
+<!--<ul class="list-unstyled main-menu">
 
-        <li><a href="about/">About <span class="icon"></span></a></li>
-        <li><a href="mens-indoor/">Mens Indoor <span class="icon"></span></a></li>
-        <li><a href="mens-outdoor/">Mens Outdoor <span class="icon"></span></a></li>
-        <li><a href="womens-indoor/">Womens Indoor <span class="icon"></span></a></li>
-        <li><a href="womens-outdoor/">Womens Outdoor</a>
-    </ul>
-</div>
+    <li class="text-right"><a href="#" id="nav-close">X</a></li>
+    <li><a href="about/">About <span class="icon"></span></a></li>
+    <li><a href="mens-indoor/">Mens Indoor <span class="icon"></span></a></li>
+    <li><a href="mens-outdoor/">Mens Outdoor <span class="icon"></span></a></li>
+    <li><a href="womens-indoor/">Womens Indoor <span class="icon"></span></a></li>
+    <li><a href="womens-outdoor/">Womens Outdoor</a>
+    </li>
+</ul>
+</nav>-->
 
-<div class="sb-navbar sb-slide">
+<div class="navbar navbar-inverse navbar-fixed-top">
 
     <!--Include your brand here-->
-    <li>
-        <a class="navbar-brand" href="#">Loyola Track Fundraiser</a>
-    </li>
-    <div class="sb-toggle-right">
-        <div class="navicon-line"></div>
-        <div class="navicon-line"></div>
-        <div class="navicon-line"></div>
+    <a class="navbar-brand" href="#">Loyola Track Fundraiser</a>
+    <div class="navbar-header pull-right">
+        <a id="nav-expander" class="nav-expander fixed">
+            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+        </a>
     </div>
-
 </div>
 
 <section id="header">
@@ -99,6 +91,7 @@
 </section>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="<c:url value="/js/jquery-1.10.1.min.js" />"><\/script>')</script>
 <script src="<c:url value="/js/bootstrap.min.js" />"></script>
 <script src="<c:url value="/js/jquery.navgoco.js" />"></script>
 <script src="<c:url value="/js/jquery.backstretch.js" />"></script>
@@ -140,11 +133,33 @@
 </script>
 
 <script>
-    (function($) {
-        $(document).ready(function() {
-            $.slidebars();
-        });
-    }) (jQuery);
+    //Navigation Menu Slider
+    $('#nav-expander').on('click',function(e){
+        e.preventDefault();
+        $('body').toggleClass('nav-expanded');
+    });
+    $('#nav-close').on('click',function(e){
+        e.preventDefault();
+        $('body').removeClass('nav-expanded');
+    });
+
+    // Initialize navgoco with default options
+    $(".main-menu").navgoco({
+        caret: '<span class="caret"></span>',
+        accordion: false,
+        openClass: 'open',
+        save: true,
+        cookie: {
+            name: 'navgoco',
+            expires: false,
+            path: '/'
+        },
+        slide: {
+            duration: 300,
+            easing: 'swing'
+        }
+    });
+
 </script>
 </body>
 </html>

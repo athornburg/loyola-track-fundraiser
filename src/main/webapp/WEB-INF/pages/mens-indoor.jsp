@@ -32,7 +32,7 @@
     <script src="<c:url value="/js/modenrizr-2.6.2-respond-1.1.0.min.js" />"></script>
 </head>
 <body>
-<nav>
+<!--<nav>
     <ul class="list-unstyled main-menu">
         <li class="text-right"><a href="#" id="nav-close">X</a></li>
         <li><a href="/">Home <span class="icon"></span></a></li>
@@ -69,7 +69,7 @@
 
         </li>
     </ul>
-</nav>
+</nav>-->
 <div class="navbar navbar-inverse navbar-fixed-top">
 
 
