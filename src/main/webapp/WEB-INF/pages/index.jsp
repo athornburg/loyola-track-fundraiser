@@ -25,6 +25,18 @@
     <script src="<c:url value="/js/modenrizr-2.6.2-respond-1.1.0.min.js" />"></script>
     </head>
 <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+
+
+    <a class="navbar-brand" href="/">Loyola Track Fundraiser</a>
+    <div class="navbar-header pull-right">
+        <a id="nav-expander" class="nav-expander fixed">
+            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+        </a>
+    </div>
+</div>
+
 <nav>
     <ul class="list-unstyled main-menu">
         <li class="text-right"><a href="#" id="nav-close">X</a></li>
@@ -37,16 +49,6 @@
     </ul>
 </nav>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-
-
-    <a class="navbar-brand" href="/">Loyola Track Fundraiser</a>
-    <div class="navbar-header pull-right">
-        <a id="nav-expander" class="nav-expander fixed">
-            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
-        </a>
-    </div>
-</div>
 <section id="header">
     <div class="container">
         <div class="row header-info margin-20">
