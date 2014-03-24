@@ -35,8 +35,8 @@
 <nav>
     <ul class="list-unstyled main-menu">
         <li class="text-right"><a href="#" id="nav-close">X</a></li>
-        <li><a href="/athletic-fundraiser/">Home <span class="icon"></span></a></li>
-        <li><a href="/athletic-fundraiser/mens/indoor/event/55mDash/">55m Dash <span class="icon"></span></a></li>
+        <li><a href="/">Home <span class="icon"></span></a></li>
+        <li><a href="/mens/indoor/event/55mDash/">55m Dash <span class="icon"></span></a></li>
         <li><a href="mens/indoor/event/55mHurdles">55m Hurdles <span class="icon"></span></a></li>
         <li><a href="mens/indoor/event/60mDash">60m Dash <span class="icon"></span></a></li>
         <li><a href="mens/indoor/event/60mHurdles">60m Hurdles<span class="icon"></span></a></li>
