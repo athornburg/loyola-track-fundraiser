@@ -12,6 +12,7 @@
 <meta property="og:url" content="">
 <meta property="og:site_name" content="">
 <meta property="og:description" content="">
+    <script>window.jQuery || document.write('<script src="<c:url value="/js/jquery-1.10.1.min.js" />"><\/script>')</script>
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value="/css/animate.css" />"/>
@@ -98,7 +99,6 @@
 </section>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="<c:url value="/js/jquery-1.10.1.min.js" />"><\/script>')</script>
 <script src="<c:url value="/js/bootstrap.min.js" />"></script>
 <script src="<c:url value="/js/jquery.navgoco.js" />"></script>
 <script src="<c:url value="/js/jquery.backstretch.js" />"></script>
