@@ -159,8 +159,6 @@
             easing: 'swing'
         }
     });
-
-    });
 </script>
 </body>
 </html>
