@@ -12,7 +12,7 @@
 <meta property="og:url" content="">
 <meta property="og:site_name" content="">
 <meta property="og:description" content="">
-    <script>window.jQuery || document.write('<script src="<c:url value="/js/jquery-1.10.1.min.js" />"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery.js"></script>
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value="/css/animate.css" />"/>
