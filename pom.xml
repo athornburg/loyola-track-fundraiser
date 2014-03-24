@@ -65,7 +65,6 @@
     </dependencies>
 
     <build>
-    <build>
 
         <finalName>athletic-fundraiser</finalName>
         <plugins>
