@@ -33,53 +33,7 @@
     <script src="<c:url value="/js/modenrizr-2.6.2-respond-1.1.0.min.js" />"></script>
 </head>
 <body>
-<!--<nav>
-    <ul class="list-unstyled main-menu">
-        <li class="text-right"><a href="#" id="nav-close">X</a></li>
-        <li><a href="/athletic-fundraiser/">Home <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/55mDash">55m Dash <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/55mHurdles">55m Hurdles <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/60mDash">60m Dash <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/60mHurdles">60m Hurdles<span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/200m">200m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/300y">300y <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/300m">300m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/400m">400m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/500m">500m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/600m">600m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/200m">200m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/800m">800m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/600y">600y <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/100y">1000y <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/100m">1000m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/Mile">Mile <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/300m">300m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/TwoMile">Two Mile <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/ThreeMile">Three Mile <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/500m">5000m <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/PoleVault">Pole Vault <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/HighJump">High Jump <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/LongJump">Long Jump <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/TripleJump">Triple Jump <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/ShotPut">Shot Put <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/WeightThrow">Weight Throw <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/4x400">4x400m Relay<span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/4x800">4x800m Relay <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/SprintMed">Sprint Medley Relay <span class="icon"></span></a></li>
-        <li><a href="mens/indoor/event/DistanceMed">Distance Medley Relay<span class="icon"></span></a></li>
-
-        </li>
-    </ul>
-</nav>-->
-<div class="navbar navbar-inverse navbar-fixed-top">
-
-
     <a class="navbar-brand" href="/">Loyola Track Fundraiser</a>
-    <div class="navbar-header pull-right">
-        <a id="nav-expander" class="nav-expander fixed">
-            Menu &nbsp;<i class="fa fa-bars fa-lg white"></i>
-        </a>
-    </div>
 </div>
 
 <table class="table table-striped">

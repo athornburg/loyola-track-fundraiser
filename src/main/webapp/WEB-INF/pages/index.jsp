@@ -26,17 +26,6 @@
     </head>
 <body>
 
-<!--<div class="navbar navbar-inverse navbar-fixed-top">
-
-
-    <a class="navbar-brand" href="/">Loyola Track Fundraiser</a>
-    <div class="navbar-header pull-right">
-        <a id="nav-expander" class="nav-expander fixed">
-            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
-        </a>
-    </div>
-</div>
-
 <nav>
     <ul class="list-unstyled main-menu">
         <li class="text-right"><a href="#" id="nav-close">X</a></li>
@@ -44,26 +33,11 @@
         <li><a href="mens-indoor/">Mens Indoor <span class="icon"></span></a></li>
         <li><a href="mens-outdoor/">Mens Outdoor <span class="icon"></span></a></li>
         <li><a href="womens-indoor/">Womens Indoor <span class="icon"></span></a></li>
-        <li><a href="womens-outdoor/">Womens Outdoor</a>
-        </li>
+        <li><a href="womens-outdoor/">Womens Outdoor</a></li>
     </ul>
-</nav>-->
-
-<!--<ul class="list-unstyled main-menu">
-
-    <li class="text-right"><a href="#" id="nav-close">X</a></li>
-    <li><a href="about/">About <span class="icon"></span></a></li>
-    <li><a href="mens-indoor/">Mens Indoor <span class="icon"></span></a></li>
-    <li><a href="mens-outdoor/">Mens Outdoor <span class="icon"></span></a></li>
-    <li><a href="womens-indoor/">Womens Indoor <span class="icon"></span></a></li>
-    <li><a href="womens-outdoor/">Womens Outdoor</a>
-    </li>
-</ul>
-</nav>-->
+</nav>
 
 <div class="navbar navbar-inverse navbar-fixed-top">
-
-    <!--Include your brand here-->
     <a class="navbar-brand" href="#">Loyola Track Fundraiser</a>
     <div class="navbar-header pull-right">
         <a id="nav-expander" class="nav-expander fixed">
@@ -100,7 +74,6 @@
 <script src="<c:url value="/js/main.js" />"></script>
 
 <script>
-    $(document).ready(function() {
         $.backstretch([
             "<c:url value="/res/8975440.jpeg" />",
             "<c:url value="/res/9295842.jpeg" />",
@@ -112,7 +85,6 @@
             fade: 400,
             duration: 5000
         });
-    });
 </script>
 
 
@@ -126,40 +98,11 @@
         itemsDesktopSmall : [900,2],
         itemsTablet: [600,1],
         itemsMobile : [0,1],
-        navigation : false,
+        navigation : true,
         pagination : true,
-        autoHeight : true
+        autoHeight : true,
+        marginTop : 50
     });
-</script>
-
-<script>
-    //Navigation Menu Slider
-    $('#nav-expander').on('click',function(e){
-        e.preventDefault();
-        $('body').toggleClass('nav-expanded');
-    });
-    $('#nav-close').on('click',function(e){
-        e.preventDefault();
-        $('body').removeClass('nav-expanded');
-    });
-
-    // Initialize navgoco with default options
-    $(".main-menu").navgoco({
-        caret: '<span class="caret"></span>',
-        accordion: false,
-        openClass: 'open',
-        save: true,
-        cookie: {
-            name: 'navgoco',
-            expires: false,
-            path: '/'
-        },
-        slide: {
-            duration: 300,
-            easing: 'swing'
-        }
-    });
-
 </script>
 </body>
 </html>

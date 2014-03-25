@@ -24,15 +24,14 @@
     <link rel="stylesheet" href="<c:url value="/css/animate.css" />"/>
     <link rel="stylesheet" href="<c:url value="/css/owl.carousel.css" />"/>
     <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" id="switcher-css" type="text/css"href="<c:url value="/css/switcher.css" />" media="all" />
 
-
+    <link rel="stylesheet" href="<c:url value="/css/flipclock.css" />"/>
     <link rel="stylesheet" href="<c:url value="/css/bootstrap.min.css" />"/>
     <link rel="stylesheet" href="<c:url value="/css/main.css" />"/>
     <script src="<c:url value="/js/modenrizr-2.6.2-respond-1.1.0.min.js" />"></script>
 </head>
 <body>
-<!--<nav>
+<nav>
     <ul class="list-unstyled main-menu">
         <li class="text-right"><a href="#" id="nav-close">X</a></li>
         <li><a href="/">Home <span class="icon"></span></a></li>
@@ -69,7 +68,7 @@
 
         </li>
     </ul>
-</nav>-->
+</nav>
 <div class="navbar navbar-inverse navbar-fixed-top">
 
 
@@ -80,7 +79,18 @@
         </a>
     </div>
 </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<section id="header">
+    <div class="container">
+        <div class="row header-info margin-20">
+            <div class="col-sm-8 col-sm-offset-4 text-center animated fadeIn">
+                <div class="clock"></div>
+                <hr>
+                <h3>Time left in the indoor season. (Example: Need more Pics)</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery.js"></script>
 <script>window.jQuery || document.write('<script src="<c:url value="/js/jquery-1.10.1.min.js" />"><\/script>')</script>
 <script src="<c:url value="/js/bootstrap.min.js" />"></script>
 <script src="<c:url value="/js/jquery.navgoco.js" />"></script>
@@ -88,6 +98,7 @@
 <script src="<c:url value="/js/owl.carousel.min.js" />"></script>
 <script src="<c:url value="/js/fswift.js" />"></script>
 <script src="<c:url value="/js/main.js" />"></script>
+<script src="<c:url value="/css/flipclock.js" />"></script>
 
 <script>
     $(document).ready(function() {
@@ -104,10 +115,15 @@
         });
     });
 </script>
+<script type="text/javascript">
+    var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+        clockFace: 'DailyCounter',
+        countdown: true
+    });
+</script>
 
 
 <script>
-    //Home Work Carousel
     var owl = $("#work-carousel");
 
     owl.owlCarousel({
@@ -122,3 +138,4 @@
     });
 </script>
 </body>
+</html>
